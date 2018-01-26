@@ -1,0 +1,492 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.topDiv {
+    min-width: 1400px;
+    height: 50px;
+    white-space: nowrap;
+    background-color: black;
+    overflow: hidden;
+}
+
+.topDivLeft {
+    background-color: inherit;
+    margin-left: 50px;
+    height: auto;
+    float: left;
+    margin-top: 15px;
+    white-space: nowrap;
+}
+
+#topLabelDiv {
+    color: white;
+    font-size: 15px;
+    margin-right: 100px;
+}
+
+.topDivRight {
+    background-color: inherit;
+    float: right;
+    margin-right: 100px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.toptext {
+    color: white;
+    font-size: 10px;
+    float: left;
+}
+
+.toptext a:hover {
+    color: #c82333;
+    cursor: pointer;
+}
+
+#phone {
+    margin-right: 50px;
+}
+
+#back {
+    margin-right: 5px;
+}
+
+#contact {
+    margin-left: 5px;
+}
+
+.labdiv {
+    min-width: 1400px;
+    height: 100px;
+    background: #f1f1f1;
+    margin-bottom: 50px;
+}
+
+.labdiv .headpic img {
+    width: 300px;
+    height: 100px;
+    margin-left: 100px;
+    float: left;
+}
+
+.labdiv .headtab {
+    height: 100px;
+    margin-left: 50px;
+
+}
+
+.labdiv .headtab ul li {
+    float: left;
+    margin-left: 50px;
+    display: block;
+    margin-top: 45px;
+}
+
+.labdiv .headtab ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.labdiv .headtab ul li a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+/*幻灯片容器*/
+.slideshow-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+}
+
+/*!*下一张，上一张按钮*!*/
+/*.prev, .next {*/
+/*cursor: pointer;*/
+/*position: absolute;*/
+/*top: 50%;*/
+/*width: auto;*/
+/*margin-top: -22px;*/
+/*padding: 16px;*/
+/*color: white;*/
+/*font-weight: bold;*/
+/*font-size: 18px;*/
+/*transition: 0.6s ease;*/
+/*border-radius: 0 3px 3px 0;*/
+/*}*/
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*标记符号*/
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/*淡出动画*/
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.nr-2 {
+    background-color: white;
+    width: 100%;
+}
+
+.view {
+    width: 100%;
+    background-color: #bbbbbb;
+    height: 5px;
+    margin-bottom: 10px;
+}
+
+.below_view {
+    margin-top: 10px;
+    width: 1200px;
+    background-color: #bbbbbb;
+    height: 5px;
+    margin-left: 100px;
+}
+
+.neirong {
+    background-color: white;
+}
+
+.gsjj {
+    height: 390px;
+    width: 1200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.gsjj .tb {
+    width: 1200px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.gsjj .nr {
+    width: 1200px;
+    height: 300px;
+}
+
+.gsjj .tp {
+    width: 600px;
+    height: 300px;
+    float: left;
+}
+
+.gsjj .wz {
+    width: 600px;
+    height: 300px;
+    float: left;
+}
+
+.gsjj .wz h1 {
+    color: #0173ac;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 38px;
+}
+
+.gsjj .wz p {
+    color: #bbbbbb;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 38px;
+    overflow: hidden;
+}
+
+.gsjj .wz a {
+    color: #0173ac;
+    font-size: 12px;
+    line-height: 38px;
+    text-decoration: none;
+}
+
+.gsjj .wz a:hover {
+    color: red;
+}
+
+.gsjj .tb .one {
+    color: #0173ac;
+}
+
+.gsjj .tb b {
+    color: #686868;
+    font-size: 10px;
+}
+
+.xwzx {
+    height: 300px;
+    width: 1200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.xwzx .tb {
+    width: 1200px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.xwzx .tb .one {
+    color: #0173ac;
+}
+
+.xwzx .tb b {
+    color: #686868;
+    font-size: 10px;
+}
+
+.xwwz .xw {
+    width: 1200px;
+    height: 300px;
+}
+
+.xwzx .xwtp {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.xwzx .xwwz {
+    width: 860px;
+    height: 300px;
+    margin-left: 40px;
+    float: left;
+}
+
+.xwzx .xwwz h1 {
+    color: #0173ac;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 38px;
+}
+
+.xwzx .xwwz p {
+    color: #bbbbbb;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 38px;
+    overflow: hidden;
+}
+
+.xwzx .xwwz .xwrq {
+    font-size: 10px;
+    color: #0173ac;
+}
+
+.xwzx .xwwz .xwxq a {
+    float: right;
+    font-size: 10px;
+    color: #0173ac;
+    text-decoration: none;
+}
+
+.xwzx .xwwz .xwxq a:hover {
+    color: red;
+}
+
+.wzlj {
+    width: 1200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.wzlj ul {
+    width: 1200px;
+    float: left;
+    height: 200px;
+}
+
+.wzlj li {
+    width: 600px;
+    float: left;
+    display: inline;
+}
+
+.wzlj a {
+    color: #bbbbbb;
+    font-size: 12px;
+    float: left;
+    font-weight: normal;
+    line-height: 30px;
+    width: 560px;
+    text-decoration: none;
+}
+
+.wzlj a:hover {
+    color: #0173ac;
+}
+
+.wzlj span {
+    float: right;
+    display: block;
+}
+
+.cpzs {
+    width: 1200px;
+    height: 550px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.cpzs .tb {
+    width: 1200px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.cpzs .tb span {
+    color: #0173ac;
+}
+
+.cpzs .tb b {
+    color: #686868;
+    font-size: 10px;
+}
+
+.cpzs ul {
+    width: 1200px;
+    height: 600px;
+}
+
+.cpzs ul li {
+    width: 289px;
+    float: left;
+    display: block;
+    margin: 5px;
+
+}
+
+.cpzs ul li p {
+    text-align: center;
+}
+
+.cpzs ul li p a {
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.cpzs ul li p a:hover {
+    color: #0173ac;
+}
+
+.xian {
+    min-width: 1400px;
+    height: 1px;
+    background-color: #868e96;
+}
+
+.foot {
+    background-color: #f1f1f1;
+    margin-top: 1px;
+    height: 310px;
+    min-width: 1400px;
+    overflow: hidden;
+}
+
+.foot .jjfa {
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    float: left;
+}
+
+.foot ul li {
+    display: block;
+}
+
+.foot ul li h1 {
+    font-size: 16px;
+    line-height: 40px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.foot ul li a {
+    font-size: 14px;
+    line-height: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.foot ul li a:hover {
+    color: #0173ac;
+}
+
+.foot .cpzx {
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+.foot .jsfw {
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+.foot .gyzx {
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+.bq {
+    height: 50px;
+    min-width: 1400px;
+    background-color: black;
+
+}
+
+.bq p {
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    padding-top: 15px;
+    white-space: nowrap;
+}
